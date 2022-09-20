@@ -1,4 +1,6 @@
-const int LEDPIN = 22; // GPIO22
+#include <Arduino.h>
+
+const int LEDPIN = 22;
 
 void setup()
 {

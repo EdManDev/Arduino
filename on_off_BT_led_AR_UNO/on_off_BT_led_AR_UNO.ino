@@ -1,4 +1,4 @@
-char Incoming_value = 0;
+char Incoming_value = 01;
 
 void setup() {
   // put your setup code here, to run once:
