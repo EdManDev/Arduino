@@ -1,0 +1,218 @@
+{
+  "Config": {
+    "Build": {
+      "Board": "esp32:esp32:esp32doit-devkit-v1:FlashFreq=80,UploadSpeed=921600,DebugLevel=none"
+    }
+  },
+  "Version": "2",
+  "Product": "Visuino - Visual Arduino Programming",
+  "Content": "OpenWire Diagram",
+  "Units": [
+    {
+      "Name": "__OpenWireRootUnit__",
+      "*": [
+        {
+          "X": 464,
+          "Name": "Arduino",
+          "Instance": {
+            "Serial": {
+              "*": [
+                {
+                  "+": "TArduinoHardwareSerial"
+                },
+                {
+                  "+": "TArduinoESP32DefinedPinsSerial1"
+                },
+                {
+                  "+": "TArduinoESP32DefinedPinsSerial2"
+                }
+              ]
+            },
+            "+": "TArduinoBoard",
+            "Modules": {
+              "*": [
+                {
+                  "HostName": "",
+                  "AccessPoint": {
+                    "SSID": "",
+                    "Password": ""
+                  },
+                  "+": "TArduinoESP32WiFiModule"
+                },
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoESP32ProcessorModule"
+                },
+                {
+                  "+": "TArduinoESP32HallSensorModule"
+                },
+                {
+                  "+": "TArduinoESP32BluetoothLEModule"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "+": "TArduinoESP32_Generic_I2C"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_I2C_2"
+                }
+              ]
+            },
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalSerial0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.PulseGenerator1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoESP32CombinedPullDownAnalogDigitalDACChannel"
+                },
+                {
+                  "+": "TArduinoESP32CombinedPullDownAnalogDigitalDACChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoESP32_Generic_SPI"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_SPI1"
+                }
+              ]
+            },
+            "BoardType": "Generic ESP32"
+          },
+          "Type": "Component",
+          "Y": 256
+        },
+        {
+          "X": 272,
+          "Name": "PulseGenerator1",
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "Name": "__OpenWireRootUnit__.Arduino.Digital[2].DigitalInputPin",
+                  "ID": "__OpenWireRootUnit__.Arduino.Digital._Item2.DigitalInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoPulseGenerator",
+            "Phase": 0,
+            "Asymmetry": 0
+          },
+          "Type": "Component",
+          "Y": 976
+        }
+      ],
+      "Type": "Diagram",
+      "Selection": [
+        "PulseGenerator1"
+      ]
+    }
+  ]
+}
