@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/edpc/Documents/GitHub/Arduino-Project-3-2022/P_dot_IO_arduino_uno/include",
-                "c:/Users/edpc/Documents/GitHub/Arduino-Project-3-2022/P_dot_IO_arduino_uno/src",
+                "c:/Users/edpc/Documents/GitHub/Arduino/P_dot_IO_arduino_uno/include",
+                "c:/Users/edpc/Documents/GitHub/Arduino/P_dot_IO_arduino_uno/src",
                 "C:/Users/edpc/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/edpc/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/edpc/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -22,8 +22,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/edpc/Documents/GitHub/Arduino-Project-3-2022/P_dot_IO_arduino_uno/include",
-                    "c:/Users/edpc/Documents/GitHub/Arduino-Project-3-2022/P_dot_IO_arduino_uno/src",
+                    "c:/Users/edpc/Documents/GitHub/Arduino/P_dot_IO_arduino_uno/include",
+                    "c:/Users/edpc/Documents/GitHub/Arduino/P_dot_IO_arduino_uno/src",
                     "C:/Users/edpc/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/edpc/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/edpc/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
